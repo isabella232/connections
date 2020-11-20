@@ -14,6 +14,7 @@ flatpak:
         RUNTIME_REPO: "https://nightly.gnome.org/gnome-nightly.flatpakrepo"
         APP_ID: "org.gnome.Connections.Devel"
         BUNDLE: "connections.flatpak"
+        GIT_SUBMODULE_STRATEGY: normal
     extends: .flatpak 
 
 nightly:
